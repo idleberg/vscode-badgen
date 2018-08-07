@@ -3,7 +3,7 @@
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
 [![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-badgen)](https://github.com/idleberg/vscode-badgen/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.badgen.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.badgen)
-[![Travis](https://flat.badgen.net/travis/idleberg/vscode-badgen)](https://travis-ci.org/idleberg/vscode-badgen)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-badgen)](https://circleci.com/gh/idleberg/vscode-badgen)
 [![David](https://flat.badgen.net/david/dev/idleberg/vscode-badgen)](https://david-dm.org/idleberg/vscode-badgen?type=dev)
 
 Snippets to quickly insert [Badgen](http://badgen.net) badgen Markdown documents — like those you can see above.

@@ -2,7 +2,7 @@
     "name": "badgen",
     "displayName": "Badgen",
     "description": "Snippets to quickly insert Badgen badges into Markdown documents",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "publisher": "idleberg",
     "license": "MIT",
     "author": {
