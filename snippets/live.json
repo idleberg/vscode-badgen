@@ -1,0 +1,382 @@
+{
+  "AppVeyor: build": {
+    "body": "![AppVeyor: build](http://${1:flat.}badgen.net/appveyor/ci/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-appveyor-build"
+  },
+  "AppVeyor: build (branch)": {
+    "body": "![AppVeyor: build (branch)](http://${1:flat.}badgen.net/appveyor/ci/${2:user}/${3:repository}/${4:branch}${5:?params})$0",
+    "prefix": "badgen-appveyor-build-branch"
+  },
+  "BundlePhobia: minified": {
+    "body": "![BundlePhobia: minified](http://${1:flat.}badgen.net/bundlephobia/min/${2:package}${3:?params})$0",
+    "prefix": "badgen-bundlephobia-minified"
+  },
+  "BundlePhobia: minified + gzip": {
+    "body": "![BundlePhobia: minified + gzip](http://${1:flat.}badgen.net/bundlephobia/minzip/${2:package}${3:?params})$0",
+    "prefix": "badgen-bundlephobia-minified-gzip"
+  },
+  "Chrome Web Store: price": {
+    "body": "![Chrome Web Store: price](http://${1:flat.}badgen.net/chrome-web-store/price/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-chrome-web-store-price"
+  },
+  "Chrome Web Store: rating": {
+    "body": "![Chrome Web Store: rating](http://${1:flat.}badgen.net/chrome-web-store/rating/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-chrome-web-store-rating"
+  },
+  "Chrome Web Store: rating count": {
+    "body": "![Chrome Web Store: rating count](http://${1:flat.}badgen.net/chrome-web-store/rating-count/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-chrome-web-store-rating-count"
+  },
+  "Chrome Web Store: stars": {
+    "body": "![Chrome Web Store: stars](http://${1:flat.}badgen.net/chrome-web-store/stars/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-chrome-web-store-stars"
+  },
+  "Chrome Web Store: users": {
+    "body": "![Chrome Web Store: users](http://${1:flat.}badgen.net/chrome-web-store/users/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-chrome-web-store-users"
+  },
+  "Chrome Web Store: version": {
+    "body": "![Chrome Web Store: version](http://${1:flat.}badgen.net/chrome-web-store/v/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-chrome-web-store-version"
+  },
+  "CircleCI: build": {
+    "body": "![CircleCI: build](http://${1:flat.}badgen.net/circleci/${2:service}/${3:user}/${4:repository}${5:?params})$0",
+    "prefix": "badgen-circleci-build"
+  },
+  "CircleCI: build (branch)": {
+    "body": "![CircleCI: build (branch)](http://${1:flat.}badgen.net/circleci/${2:service}/${3:user}/${4:repository}/${5:branch}${6:?params})$0",
+    "prefix": "badgen-circleci-build-branch"
+  },
+  "Codecov: coverage": {
+    "body": "![Codecov: coverage](http://${1:flat.}badgen.net/codecov/c/${2:service}/${3:user}/${4:repository}${5:?params})$0",
+    "prefix": "badgen-codecov-coverage"
+  },
+  "Codecov: coverage (branch)": {
+    "body": "![Codecov: coverage (branch)](http://${1:flat.}badgen.net/codecov/c/${2:service}/${3:user}/${4:repository}/${5:branch}${6:?params})$0",
+    "prefix": "badgen-codecov-coverage-branch"
+  },
+  "Coveralls: coverage": {
+    "body": "![Coveralls: coverage](http://${1:flat.}badgen.net/coveralls/c/${2:service}/${3:user}/${4:repository}${5:?params})$0",
+    "prefix": "badgen-coveralls-coverage"
+  },
+  "Coveralls: coverage (branch)": {
+    "body": "![Coveralls: coverage (branch)](http://${1:flat.}badgen.net/coveralls/c/${2:service}/${3:user}/${4:repository}/${5:branch}${6:?params})$0",
+    "prefix": "badgen-coveralls-coverage-branch"
+  },
+  "David: dependencies": {
+    "body": "![David: dependencies](http://${1:flat.}badgen.net/david/dep/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-david-dependencies"
+  },
+  "David: dev dependencies": {
+    "body": "![David: dev dependencies](http://${1:flat.}badgen.net/david/dev/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-david-dev-dependencies"
+  },
+  "David: optional dependencies": {
+    "body": "![David: optional dependencies](http://${1:flat.}badgen.net/david/optional/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-david-optional-dependencies"
+  },
+  "David: peer dependencies": {
+    "body": "![David: peer dependencies](http://${1:flat.}badgen.net/david/peer/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-david-peer-dependencies"
+  },
+  "Docker: pulls (library)": {
+    "body": "![Docker: pulls (library)](http://${1:flat.}badgen.net/docker/pulls/library/${2:library}${3:?params})$0",
+    "prefix": "badgen-docker-pulls-library"
+  },
+  "Docker: pulls (scoped)": {
+    "body": "![Docker: pulls (scoped)](http://${1:flat.}badgen.net/docker/pulls/${2:user}/${3:library}${4:?params})$0",
+    "prefix": "badgen-docker-pulls-scoped"
+  },
+  "Docker: stars": {
+    "body": "![Docker: stars](http://${1:flat.}badgen.net/docker/stars/library/${2:library}${3:?params})$0",
+    "prefix": "badgen-docker-stars"
+  },
+  "Docker: stars (library)": {
+    "body": "![Docker: stars (library)](http://${1:flat.}badgen.net/docker/stars/library/${2:library}${3:?params})$0",
+    "prefix": "badgen-docker-stars-library"
+  },
+  "GitHub: forks": {
+    "body": "![GitHub: forks](https://${1:flat.}badgen.net/github/forks/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-forks"
+  },
+  "GitHub: issues": {
+    "body": "![GitHub: issues](https://${1:flat.}badgen.net/github/issues/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-issues"
+  },
+  "GitHub: latest release": {
+    "body": "![GitHub: latest release](https://${1:flat.}badgen.net/github/release/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-latest-release"
+  },
+  "GitHub: latest stable release": {
+    "body": "![GitHub: latest stable release](https://${1:flat.}badgen.net/github/release/${2:user}/${3:repository}/stable${4:?params})$0",
+    "prefix": "badgen-github-latest-stable-release"
+  },
+  "GitHub: latest tag": {
+    "body": "![GitHub: latest tag](https://${1:flat.}badgen.net/github/tag/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-latest-tag"
+  },
+  "GitHub: open issues": {
+    "body": "![GitHub: open issues](https://${1:flat.}badgen.net/github/open-issues/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-open-issues"
+  },
+  "GitHub: stars": {
+    "body": "![GitHub: stars](https://${1:flat.}badgen.net/github/stars/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-stars"
+  },
+  "GitHub: watchers": {
+    "body": "![GitHub: watchers](https://${1:flat.}badgen.net/github/watchers/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-github-watchers"
+  },
+  "Homebrew: version": {
+    "body": "![Homebrew: version](http://${1:flat.}badgen.net/homebrew/v/${2:package}${3:?params})$0",
+    "prefix": "badgen-homebrew-version"
+  },
+  "Mozilla Add-on: rating": {
+    "body": "![Mozilla Add-on: rating](http://${1:flat.}badgen.net/amo/rating/${2:addon}${3:?params})$0",
+    "prefix": "badgen-amo-rating"
+  },
+  "Mozilla Add-on: reviews": {
+    "body": "![Mozilla Add-on: reviews](http://${1:flat.}badgen.net/amo/reviews/${2:addon}${3:?params})$0",
+    "prefix": "badgen-amo-reviews"
+  },
+  "Mozilla Add-on: stars": {
+    "body": "![Mozilla Add-on: stars](http://${1:flat.}badgen.net/amo/stars/${2:addon}${3:?params})$0",
+    "prefix": "badgen-amo-stars"
+  },
+  "Mozilla Add-on: users": {
+    "body": "![Mozilla Add-on: users](http://${1:flat.}badgen.net/amo/users/${2:addon}${3:?params})$0",
+    "prefix": "badgen-amo-users"
+  },
+  "Mozilla Add-on: version": {
+    "body": "![Mozilla Add-on: version](http://${1:flat.}badgen.net/amo/v/${2:addon}${3:?params})$0",
+    "prefix": "badgen-amo-version"
+  },
+  "NuGet: version (latest)": {
+    "body": "![NuGet: version (latest)](http://${1:flat.}badgen.net/nuget/v/${2:package}/latest${3:?params})$0",
+    "prefix": "badgen-nuget-version-latest"
+  },
+  "NuGet: version (pre)": {
+    "body": "![NuGet: version (pre)](http://${1:flat.}badgen.net/nuget/v/${2:package}/pre${3:?params})$0",
+    "prefix": "badgen-nuget-version-pre"
+  },
+  "NuGet: version (stable)": {
+    "body": "![NuGet: version (stable)](http://${1:flat.}badgen.net/nuget/v/${2:package}${3:?params})$0",
+    "prefix": "badgen-nuget-version-stable"
+  },
+  "Open Collective: backers": {
+    "body": "![Open Collective: backers](http://${1:flat.}badgen.net/opencollective/backers/${2:package}${3:?params})$0",
+    "prefix": "badgen-opencollective-backers"
+  },
+  "Open Collective: balance": {
+    "body": "![Open Collective: balance](http://${1:flat.}badgen.net/opencollective/balance/${2:package}${3:?params})$0",
+    "prefix": "badgen-opencollective-balance"
+  },
+  "Open Collective: contributors": {
+    "body": "![Open Collective: contributors](http://${1:flat.}badgen.net/opencollective/contributors/${2:package}${3:?params})$0",
+    "prefix": "badgen-opencollective-contributors"
+  },
+  "Open Collective: yearly income": {
+    "body": "![Open Collective: yearly income](http://${1:flat.}badgen.net/opencollective/yearly/${2:package}${3:?params})$0",
+    "prefix": "badgen-opencollective-yearly-income"
+  },
+  "Package Phobia: install size": {
+    "body": "![Package Phobia: install size](http://${1:flat.}badgen.net/packagephobia/install/${2:package}${3:?params})$0",
+    "prefix": "badgen-packagephobia-install-size"
+  },
+  "Package Phobia: publish size": {
+    "body": "![Package Phobia: publish size](http://${1:flat.}badgen.net/packagephobia/publish/${2:package}${3:?params})$0",
+    "prefix": "badgen-packagephobia-publish-size"
+  },
+  "Packagist: daily downloads": {
+    "body": "![Packagist: daily downloads](http://${1:flat.}badgen.net/packagist/dd/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-daily-downloads"
+  },
+  "Packagist: dependents": {
+    "body": "![Packagist: dependents](http://${1:flat.}badgen.net/packagist/dependents/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-dependents"
+  },
+  "Packagist: favers": {
+    "body": "![Packagist: favers](http://${1:flat.}badgen.net/packagist/favers/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-favers"
+  },
+  "Packagist: github forks": {
+    "body": "![Packagist: github forks](http://${1:flat.}badgen.net/packagist/ghf/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-github-forks"
+  },
+  "Packagist: github issues": {
+    "body": "![Packagist: github issues](http://${1:flat.}badgen.net/packagist/ghi/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-github-issues"
+  },
+  "Packagist: github stars": {
+    "body": "![Packagist: github stars](http://${1:flat.}badgen.net/packagist/ghs/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-github-stars"
+  },
+  "Packagist: github watchers": {
+    "body": "![Packagist: github watchers](http://${1:flat.}badgen.net/packagist/ghw/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-github-watchers"
+  },
+  "Packagist: language": {
+    "body": "![Packagist: language](http://${1:flat.}badgen.net/packagist/lang/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-language"
+  },
+  "Packagist: license": {
+    "body": "![Packagist: license](http://${1:flat.}badgen.net/packagist/license/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-license"
+  },
+  "Packagist: monthly downloads": {
+    "body": "![Packagist: monthly downloads](http://${1:flat.}badgen.net/packagist/dm/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-monthly-downloads"
+  },
+  "Packagist: name": {
+    "body": "![Packagist: name](http://${1:flat.}badgen.net/packagist/n/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-name"
+  },
+  "Packagist: suggesters": {
+    "body": "![Packagist: suggesters](http://${1:flat.}badgen.net/packagist/suggesters/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-suggesters"
+  },
+  "Packagist: total downloads": {
+    "body": "![Packagist: total downloads](http://${1:flat.}badgen.net/packagist/dt/${2:user}/${3:package}${4:?params})$0",
+    "prefix": "badgen-packagist-total-downloads"
+  },
+  "Packagist: version": {
+    "body": "![Packagist: version](http://${1:flat.}badgen.net/packagist/v/${2:user}/${2:package}${3:?params})$0",
+    "prefix": "badgen-packagist-version"
+  },
+  "Packagist: version (latest)": {
+    "body": "![Packagist: version (latest)](http://${1:flat.}badgen.net/packagist/v/${2:user}/${3:package}/latest${4:?params})$0",
+    "prefix": "badgen-packagist-version-latest"
+  },
+  "Packagist: version (pre)": {
+    "body": "![Packagist: version (pre)](http://${1:flat.}badgen.net/packagist/v/${2:user}/${3:package}/pre${4:?params})$0",
+    "prefix": "badgen-packagist-version-pre"
+  },
+  "PyPI: license": {
+    "body": "![PyPI: license](http://${1:flat.}badgen.net/pypi/license/${2:package}${3:?params})$0",
+    "prefix": "badgen-pypi-license"
+  },
+  "PyPI: version": {
+    "body": "![PyPI: version](http://${1:flat.}badgen.net/pypi/v/${2:package}${3:?params})$0",
+    "prefix": "badgen-pypi-version"
+  },
+  "RubyGems: name": {
+    "body": "![RubyGems: name](http://${1:flat.}badgen.net/rubygems/n/${2:gem}${3:?params})$0",
+    "prefix": "badgen-rubygems-name"
+  },
+  "RubyGems: platform": {
+    "body": "![RubyGems: platform](http://${1:flat.}badgen.net/rubygems/p/${2:gem}${3:?params})$0",
+    "prefix": "badgen-rubygems-platform"
+  },
+  "RubyGems: total downloads": {
+    "body": "![RubyGems: total downloads](http://${1:flat.}badgen.net/rubygems/dt/${2:gem}${3:?params})$0",
+    "prefix": "badgen-rubygems-total-downloads"
+  },
+  "RubyGems: version (latest)": {
+    "body": "![RubyGems: version (latest)](http://${1:flat.}badgen.net/rubygems/v/${2:gem}/latest${3:?params})$0",
+    "prefix": "badgen-rubygems-version-latest"
+  },
+  "RubyGems: version (pre)": {
+    "body": "![RubyGems: version (pre)](http://${1:flat.}badgen.net/rubygems/v/${2:gem}/pre${3:?params})$0",
+    "prefix": "badgen-rubygems-version-pre"
+  },
+  "RubyGems: version (stable)": {
+    "body": "![RubyGems: version (stable)](http://${1:flat.}badgen.net/rubygems/v/${2:gem}${3:?params})$0",
+    "prefix": "badgen-rubygems-version-stable"
+  },
+  "RubyGems: version downloads": {
+    "body": "![RubyGems: version downloads](http://${1:flat.}badgen.net/rubygems/dv/${2:gem}${3:?params})$0",
+    "prefix": "badgen-rubygems-version-downloads"
+  },
+  "Travis: build": {
+    "body": "![Travis: build](http://${1:flat.}badgen.net/travis/${2:user}/${3:repository}${4:?params})$0",
+    "prefix": "badgen-travis-build"
+  },
+  "Travis: build (branch)": {
+    "body": "![Travis: build (branch)](http://${1:flat.}badgen.net/travis/${2:user}/${3:repository}/${4:branch}${5:?params})$0",
+    "prefix": "badgen-travis-build-branch"
+  },
+  "Uptime Robot: (24 hours) uptime": {
+    "body": "![Uptime Robot: (24 hours) uptime](http://${1:flat.}badgen.net/uptime-robot/day/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-uptime-robot-24-hours-uptime"
+  },
+  "Uptime Robot: (last hours) response": {
+    "body": "![Uptime Robot: (last hours) response](http://${1:flat.}badgen.net/uptime-robot/response/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-uptime-robot-last-hours-response"
+  },
+  "Uptime Robot: (past month) uptime": {
+    "body": "![Uptime Robot: (past month) uptime](http://${1:flat.}badgen.net/uptime-robot/month/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-uptime-robot-past-month-uptime"
+  },
+  "Uptime Robot: (past week) uptime": {
+    "body": "![Uptime Robot: (past week) uptime](http://${1:flat.}badgen.net/uptime-robot/week/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-uptime-robot-past-week-uptime"
+  },
+  "Uptime Robot: status": {
+    "body": "![Uptime Robot: status](http://${1:flat.}badgen.net/uptime-robot/status/${2:uuid}${3:?params})$0",
+    "prefix": "badgen-uptime-robot-status"
+  },
+  "apm: downloads": {
+    "body": "![apm: downloads](http://${1:flat.}badgen.net/apm/dl/${2:package}${3:?params})$0",
+    "prefix": "badgen-apm-downloads"
+  },
+  "apm: license": {
+    "body": "![apm: license](http://${1:flat.}badgen.net/apm/license/${2:package}${3:?params})$0",
+    "prefix": "badgen-apm-license"
+  },
+  "apm: stars": {
+    "body": "![apm: stars](http://${1:flat.}badgen.net/apm/stars/${2:package}${3:?params})$0",
+    "prefix": "badgen-apm-stars"
+  },
+  "apm: version": {
+    "body": "![apm: version](http://${1:flat.}badgen.net/apm/v/${2:package}${3:?params})$0",
+    "prefix": "badgen-apm-version"
+  },
+  "crates.io: downloads": {
+    "body": "![crates.io: downloads](http://${1:flat.}badgen.net/crates/d/${2:crate}${3:?params})$0",
+    "prefix": "badgen-crates-downloads"
+  },
+  "crates.io: downloads (latest)": {
+    "body": "![crates.io: downloads (latest)](http://${1:flat.}badgen.net/crates/dl/${2:crate}${3:?params})$0",
+    "prefix": "badgen-crates-downloads-latest"
+  },
+  "crates.io: version": {
+    "body": "![crates.io: version](http://${1:flat.}badgen.net/crates/v/${2:crate}${3:?params})$0",
+    "prefix": "badgen-crates-version"
+  },
+  "npm: dependents": {
+    "body": "![npm: dependents](https://${1:flat.}badgen.net/npm/dependents/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-dependents"
+  },
+  "npm: engines (node)": {
+    "body": "![npm: engines (node)](https://${1:flat.}badgen.net/npm/node/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-engines-node"
+  },
+  "npm: license": {
+    "body": "![npm: license](https://${1:flat.}badgen.net/npm/license/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-license"
+  },
+  "npm: monthly downloads": {
+    "body": "![npm: monthly downloads](https://${1:flat.}badgen.net/npm/dm/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-monthly-downloads"
+  },
+  "npm: total downloads": {
+    "body": "![npm: total downloads](https://${1:flat.}badgen.net/npm/dt/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-total-downloads"
+  },
+  "npm: version": {
+    "body": "![npm: version](https://${1:flat.}badgen.net/npm/v/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-version"
+  },
+  "npm: version (tag)": {
+    "body": "![npm: version (tag)](https://${1:flat.}badgen.net/npm/v/${1:package}/${2:tag}${3:?params})$0",
+    "prefix": "badgen-npm-version-tag"
+  },
+  "npm: weekly downloads": {
+    "body": "![npm: weekly downloads](https://${1:flat.}badgen.net/npm/dw/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-weekly-downloads"
+  },
+  "npm: yearly downloads": {
+    "body": "![npm: yearly downloads](https://${1:flat.}badgen.net/npm/dy/${1:package}${2:?params})$0",
+    "prefix": "badgen-npm-yearly-downloads"
+  }
+}

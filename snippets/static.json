@@ -1,0 +1,6 @@
+{
+  "Badgen: Static Badge": {
+    "body": "![${1:alt_text}](https://${2:flat.}badgen.net/badge/${3:subject}/${4:status}/${5:color})$0",
+    "prefix": "badgen-static"
+  }
+}
