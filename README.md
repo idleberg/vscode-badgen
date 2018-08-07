@@ -6,7 +6,7 @@
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-badgen)](https://circleci.com/gh/idleberg/vscode-badgen)
 [![David](https://flat.badgen.net/david/dev/idleberg/vscode-badgen)](https://david-dm.org/idleberg/vscode-badgen?type=dev)
 
-Snippets to quickly insert [Badgen](http://badgen.net) badgen Markdown documents — like those you can see above.
+Snippets to quickly insert [Badgen](http://badgen.net) badges Markdown documents — like those you can see above.
 
 This package is also available for [Atom](https://github.com/idleberg/atom-badgen)
 
