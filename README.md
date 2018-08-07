@@ -8,8 +8,6 @@
 
 Snippets to quickly insert [Badgen](http://badgen.net) badges Markdown documents — like those you can see above.
 
-This package is also available for [Atom](https://github.com/idleberg/atom-badgen)
-
 ## Installation
 
 ### Extension Marketplace
