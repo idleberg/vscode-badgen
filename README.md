@@ -44,23 +44,6 @@ Clone repository as `badgen`:
 $ git clone https://github.com/idleberg/vscode-badgen badgen
 ```
 
-### Usage
-
-**Note:** By default, the quick suggestions are disabled for Markdown files. You can enable them by setting `editor.quickSuggestions` to `true`.
-
-All snippets start with the prefix `svg-` and is followed by the service you're adressing, with some services offering multiple choices.
-
-Examples:
-
-* `svg-pypi-dl-day` - daily downloads on PyPI
-* `svg-pypi-dl-month` - monthly downloads on PyPI
-* `svg-travis` - build status on Travis
-* `svg-travis-branch` - build status on Travis for a specific branch
-* `svg-npm-ver` - the version of a Node package
-* `svg-gpl3` - link to GNU General Public License, Version 3
-
-Please refer to the [snippet guide](https://github.com/idleberg/vscode-badgen/blob/master/snippets.md) for a complete list.
-
 ## Related
 
 - [Badgen for Atom](https://atom.io/packages/badgen)
