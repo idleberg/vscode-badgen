@@ -17,7 +17,7 @@
 - `badgen-bundlephobia-minified-gzip`
 - `badgen-bundlephobia-minified`
 
-# Chrome Web Store
+## Chrome Web Store
 
 - `badgen-chrome-web-store-price`
 - `badgen-chrome-web-store-rating-count`
@@ -26,7 +26,7 @@
 - `badgen-chrome-web-store-users`
 - `badgen-chrome-web-store-version`
 
-# CircleCI
+## CircleCI
 
 - `badgen-circleci-build-branch`
 - `badgen-circleci-build`
