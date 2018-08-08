@@ -42,6 +42,22 @@ Clone repository as `badgen`:
 $ git clone https://github.com/idleberg/vscode-badgen badgen
 ```
 
+## Usage
+
+Snippets follow the naming scheme of Badgen URL, e.g. `badgen-npm` is used for npm badges and `badgen-amo` for Mozilla Add-ons. Please refer to the [snippet guide](https://github.com/idleberg/vscode-badgen/blob/master/snippets.md) for a complete list.
+
+### Enable Quick Suggestions
+
+By default, Visual Studio Code has quick suggestions disabled for Markdown files. You can enable it in your settings as follows.
+
+```json
+"[markdown]": {
+    "editor.quickSuggestions": true
+}
+```
+
+Alternatively, press <kbd>Ctrl</kbd>+<kbd>Space</kbd> after typing the `badgen` prefix to show the list of suggestions.
+
 ## Related
 
 - [Badgen for Atom](https://atom.io/packages/badgen)
