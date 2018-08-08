@@ -8,6 +8,8 @@
 
 Snippets to quickly insert [Badgen](http://badgen.net) badges Markdown documents — like those you can see above.
 
+![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-badgen/master/screenshot.gif)
+
 ## Installation
 
 ### Extension Marketplace
