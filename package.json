@@ -51,9 +51,9 @@
     "devDependencies": {
         "gulp": "^4.0.0",
         "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.2.2",
-        "husky": "^0.14.3",
+        "gulp-rename": "^2.0.0",
+        "husky": "^4.2.3",
         "vscode": "^1.0.3",
-        "vscode-linter": "^0.2.1"
+        "vscode-linter": "^0.3.1"
     }
 }
