@@ -344,27 +344,27 @@
     "prefix": "badgen-crates-version"
   },
   "npm: dependents": {
-    "body": "![npm: dependents](https://${1:flat.}badgen.net/npm/dependents/${1:package}${2:?params})$0",
+    "body": "![npm: dependents](https://${1:flat.}badgen.net/npm/dependents/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-dependents"
   },
   "npm: engines (node)": {
-    "body": "![npm: engines (node)](https://${1:flat.}badgen.net/npm/node/${1:package}${2:?params})$0",
+    "body": "![npm: engines (node)](https://${1:flat.}badgen.net/npm/node/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-engines-node"
   },
   "npm: license": {
-    "body": "![npm: license](https://${1:flat.}badgen.net/npm/license/${1:package}${2:?params})$0",
+    "body": "![npm: license](https://${1:flat.}badgen.net/npm/license/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-license"
   },
   "npm: monthly downloads": {
-    "body": "![npm: monthly downloads](https://${1:flat.}badgen.net/npm/dm/${1:package}${2:?params})$0",
+    "body": "![npm: monthly downloads](https://${1:flat.}badgen.net/npm/dm/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-monthly-downloads"
   },
   "npm: total downloads": {
-    "body": "![npm: total downloads](https://${1:flat.}badgen.net/npm/dt/${1:package}${2:?params})$0",
+    "body": "![npm: total downloads](https://${1:flat.}badgen.net/npm/dt/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-total-downloads"
   },
   "npm: version": {
-    "body": "![npm: version](https://${1:flat.}badgen.net/npm/v/${1:package}${2:?params})$0",
+    "body": "![npm: version](https://${1:flat.}badgen.net/npm/v/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-version"
   },
   "npm: version (tag)": {
@@ -372,11 +372,11 @@
     "prefix": "badgen-npm-version-tag"
   },
   "npm: weekly downloads": {
-    "body": "![npm: weekly downloads](https://${1:flat.}badgen.net/npm/dw/${1:package}${2:?params})$0",
+    "body": "![npm: weekly downloads](https://${1:flat.}badgen.net/npm/dw/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-weekly-downloads"
   },
   "npm: yearly downloads": {
-    "body": "![npm: yearly downloads](https://${1:flat.}badgen.net/npm/dy/${1:package}${2:?params})$0",
+    "body": "![npm: yearly downloads](https://${1:flat.}badgen.net/npm/dy/${2:package}${3:?params})$0",
     "prefix": "badgen-npm-yearly-downloads"
   }
 }
